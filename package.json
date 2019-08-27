@@ -1,0 +1,27 @@
+{
+  "name": "stakit-test-writer",
+  "version": "0.0.0",
+  "description": "A small writer utility for testing stakit modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/stakit/stakit-test-writer"
+  },
+  "keywords": [
+    "stakit"
+  ],
+  "author": "kodedninja",
+  "license": "ISC",
+  "dependencies": {
+    "concat-stream": "^2.0.0",
+    "tape-promise": "^4.0.0"
+  },
+  "devDependencies": {
+    "stakit": "^0.0.2",
+    "standard": "^14.0.2",
+    "tape": "^4.11.0"
+  }
+}
